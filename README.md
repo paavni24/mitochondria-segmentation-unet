@@ -42,4 +42,5 @@ A visual comparison of the input EM image, ground truth, and the predicted mask 
 
 ## 📄 Project Summary
 
-📥 [Download the report](project_summary.pdf)
+📥 [Download PDF](https://github.com/paavni24/mitochondria-segmentation-unet/raw/main/report/project_summary.pdf)
+
