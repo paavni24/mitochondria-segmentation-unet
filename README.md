@@ -41,4 +41,4 @@ A visual comparison of the input EM image, ground truth, and the predicted mask 
 - Explore semi-supervised segmentation
 
 ## 📄 Project Report
-Find the one-pager summary in [`report/project_summary.pdf`](report/project_summary.pdf)
+Find the one-pager summary in [`report/project_summary.pdf`](summary-2.pdf)
