@@ -26,9 +26,16 @@ This project tackles the challenge of segmenting mitochondria in electron micros
 - NumPy, Matplotlib, Patchify
 - Scikit-Image, OpenCV
 
-## 📈 Sample Prediction
+## 🖼️ Sample Prediction Output
 
-![sample](results/sample_preds/sample1.png)
+Below is a visual comparison between the original EM image, the ground truth mask, and the predicted segmentation output from the U-Net model.
+
+| Input Image | Ground Truth | Model Prediction |
+|-------------|--------------|------------------|
+| ![Input](results/sample_preds/sample1.png) | ![GT](results/sample_preds/sample1.png) | ![Prediction](results/sample_preds/sample1.png) |
+
+> 📌 *Note: This sample is a combined plot saved from the training notebook showing model performance.*
+
 
 ## 📝 Future Work
 - Add Dice + Focal loss
