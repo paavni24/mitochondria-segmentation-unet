@@ -2,31 +2,31 @@
 Deep learning project for mitochondria segmentation using U-Net on EM images.
 # 🧬 Mitochondria Segmentation using U-Net
 
-## 🧠 Abstract
+## Abstract
 This project tackles the challenge of segmenting mitochondria in electron microscopy (EM) images using a U-Net model. We preprocessed the dataset by patchifying large images into 256×256 tiles and applied real-time augmentation to improve generalization. The model was trained using TensorFlow/Keras and evaluated using metrics like Dice coefficient and IoU.
 
 ## 📊 Results
-- ✅ **Pixel Accuracy**: 98.61%
-- ✅ **Dice Coefficient**: 0.8563
-- ✅ **IoU Score**: 0.7487
+-  **Pixel Accuracy**: 98.61%
+-  **Dice Coefficient**: 0.8563
+-  **IoU Score**: 0.7487
 
 ## 🗂️ Dataset
 - Kaggle: [Electron Microscopy Dataset](https://www.kaggle.com/datasets/)
 - Consists of grayscale microscopy images and binary segmentation masks.
 
-## 🧪 Methodology
+##  Methodology
 - Patchify input into 256×256 tiles
 - Normalize + augment image/mask pairs
 - Train a U-Net model with Binary Crossentropy loss
 - Evaluate using IoU, Dice, and Pixel Accuracy
 - Visualize predictions and error maps
 
-## 🧰 Tech Stack
+## Tech Stack
 - Python, TensorFlow/Keras
 - NumPy, Matplotlib, Patchify
 - Scikit-Image, OpenCV
 
-## 🖼️ Sample Prediction Output
+## Sample Prediction Output
 
 A visual comparison of the input EM image, ground truth, and the predicted mask from U-Net:
 
@@ -35,12 +35,12 @@ A visual comparison of the input EM image, ground truth, and the predicted mask 
 | ![Input](results/sample_preds/input.png) | ![Ground Truth](results/sample_preds/gt.png) | ![Prediction](results/sample_preds/pt.png) |
 
 
-## 📝 Future Work
+## Future Work
 - Add Dice + Focal loss
 - Try Attention U-Net
 - Explore semi-supervised segmentation
 
-## 📄 Project Summary
+## Project Summary
 
 📥 [Download PDF](https://github.com/paavni24/mitochondria-segmentation-unet/raw/main/report/project_summary.pdf)
 
