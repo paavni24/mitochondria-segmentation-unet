@@ -28,13 +28,11 @@ This project tackles the challenge of segmenting mitochondria in electron micros
 
 ## 🖼️ Sample Prediction Output
 
-Below is a visual comparison between the original EM image, the ground truth mask, and the predicted segmentation output from the U-Net model.
+A visual comparison of the input EM image, ground truth, and the predicted mask from U-Net:
 
-| Input Image | Ground Truth | Model Prediction |
-|-------------|--------------|------------------|
-| ![Input](results/sample_preds/sample1.png) | ![GT](results/sample_preds/sample1.png) | ![Prediction](results/sample_preds/sample1.png) |
-
-> 📌 *Note: This sample is a combined plot saved from the training notebook showing model performance.*
+| Input Image | Ground Truth | Predicted Mask |
+|-------------|--------------|----------------|
+| ![Input](results/sample_preds/input.png) | ![Ground Truth](results/sample_preds/gt.png) | ![Prediction](results/sample_preds/pt.png) |
 
 
 ## 📝 Future Work
