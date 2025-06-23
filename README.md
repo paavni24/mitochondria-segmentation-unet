@@ -5,12 +5,12 @@ Deep learning project for mitochondria segmentation using U-Net on EM images.
 ## Abstract
 This project tackles the challenge of segmenting mitochondria in electron microscopy (EM) images using a U-Net model. We preprocessed the dataset by patchifying large images into 256×256 tiles and applied real-time augmentation to improve generalization. The model was trained using TensorFlow/Keras and evaluated using metrics like Dice coefficient and IoU.
 
-## 📊 Results
+## Results
 -  **Pixel Accuracy**: 98.61%
 -  **Dice Coefficient**: 0.8563
 -  **IoU Score**: 0.7487
 
-## 🗂️ Dataset
+## Dataset
 - Kaggle: [Electron Microscopy Dataset](https://www.kaggle.com/datasets/)
 - Consists of grayscale microscopy images and binary segmentation masks.
 
