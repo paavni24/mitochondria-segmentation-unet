@@ -36,7 +36,6 @@ A visual comparison of the input EM image, ground truth, and the predicted mask 
 
 
 ## Future Work
-- Add Dice + Focal loss
 - Try Attention U-Net
 - Explore semi-supervised segmentation
 
