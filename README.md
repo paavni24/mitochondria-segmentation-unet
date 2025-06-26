@@ -39,7 +39,7 @@ A visual comparison of the input EM image, ground truth, and the predicted mask 
 - Try Attention U-Net
 - Explore semi-supervised segmentation
 
-## Project Summary
+## Report
 
-📥 [Download PDF](https://github.com/paavni24/mitochondria-segmentation-unet/raw/main/report/project_summary.pdf)
+📥 [View report](https://github.com/paavni24/mitochondria-segmentation-unet/blob/main/report.pdf)
 
